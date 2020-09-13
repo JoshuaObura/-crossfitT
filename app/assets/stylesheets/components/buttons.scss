@@ -1,0 +1,19 @@
+.btn-ghost-home {
+  display: flex;
+  justify-content: center;
+  color: #dadada;
+  border: 2px solid #dadada;
+  padding: 8px 24px;
+  border-radius: 5px;
+  font-weight: lighter;
+  font-size: 20px;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.btn-ghost-home:hover {
+  opacity: 1;
+  color: #fbdf2c;
+  border:2px solid #fbdf2c;
+  transition: opacity 1.0s ease;
+}

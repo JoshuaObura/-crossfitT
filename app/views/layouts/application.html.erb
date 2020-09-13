@@ -12,6 +12,12 @@
   </head>
 
   <body>
+      <div class="page-ref">
+      <div class="nav-body">
+        <% unless @hide_navbar %>
+        <%= render 'shared/navbar' %>
+        <% end %>
+      </div>
     <%= yield %>
   </body>
 </html>
